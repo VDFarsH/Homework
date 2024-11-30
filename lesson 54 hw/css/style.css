@@ -1,0 +1,46 @@
+body {
+    background: #262628;
+    overflow: auto;
+}
+
+.inner {
+    font-size: 40px;
+    margin-bottom: 4000px;
+}
+
+.inner__text {
+    margin: 0;
+    color: #b5b5b5;
+}
+
+/* ============================================================= */
+
+nav {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.fixed {
+    background-color: #FFFFFF;
+    position: fixed;
+    left: 50vw;
+    right: 50px;
+    bottom: 100px;
+    padding: 10px;
+    min-height: 100px;
+
+    border: #FFFFFF;
+    border-radius: 16px;
+}
+
+.circle {
+    background-color: #9a2525;
+    position: fixed;
+    min-width: 100px;
+    min-height: 100px;
+    bottom: 175px;
+    right: 700px;
+
+    border: #9a2525;
+    border-radius: 100%;
+}
