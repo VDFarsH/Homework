@@ -795,6 +795,7 @@
 
 .accordion-content__item {
     margin-bottom: 20px;
+    display: flex;
 }
 
 .accordion-content__item:last-child {
